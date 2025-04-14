@@ -1,16 +1,26 @@
-# Entorno virtual
+# 👉 Entorno virtual
 flightprice_env/
+venv/
 
-# Archivos temporales de Python
+# 👉 Archivos temporales de Python
 __pycache__/
 *.pyc
 
-# Notebooks checkpoints
+# 👉 Checkpoints de Jupyter
 .ipynb_checkpoints/
 
-# Modelos y datos grandes
+# 👉 Archivos de datos y modelos que NO quieres subir
 *.npy
 *.csv
+*.parquet
+*.pkl
+*.h5
+*.json
 
-# VS Code settings (opcional)
+# 👉 EXCEPCIONES: estos archivos específicos SÍ se suben
+!models/flight_price_predictor_v4_clean_final.h5
+!models/standard_scaler.pkl
+!data_subsets/column_values.json
+
+# 👉 Configuraciones de VS Code (opcional)
 .vscode/
