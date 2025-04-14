@@ -1,6 +1,18 @@
+# Entorno virtual
+flightprice_env/
+
+# Archivos temporales de Python
 __pycache__/
 *.pyc
-*.ipynb_checkpoints/
-venv/
-.env
-*.parquet\n*.csv
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Modelos y datos grandes
+*.h5
+*.npy
+*.parquet
+*.csv
+
+# VS Code settings (opcional)
+.vscode/
