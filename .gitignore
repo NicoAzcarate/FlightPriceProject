@@ -9,9 +9,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Modelos y datos grandes
-*.h5
 *.npy
-*.parquet
 *.csv
 
 # VS Code settings (opcional)
