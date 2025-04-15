@@ -34,8 +34,11 @@ En el notebook exploracion_columnas.ipynb realicé un análisis de las columnas,
 
 En Predictions.ipynb validé el modelo con nuevos datos y visualicé los resultados. Además, desarrollé app_predictor.py, un script que uso como backend para una interfaz creada con Streamlit, donde el usuario puede introducir las características del vuelo y obtener la predicción del precio.
 
-Para probar la predicción del precio de un vuelo a través de la interfaz web, hay que ejecutar "streamlit run src/app_predictor.py" en el terminal, lo que abrira una dirección para el navegador.
 
+* Ejecución:
+
+Tras clonar el repositorio, hay que instalar las dependencias necesarias ejecutando "pip install -r requirements.txt". Una vez instaladas, puedes iniciar la aplicación con "python -m streamlit run src/app_predictor.py" o "streamlit run src/app_predictor.py".
+Asegúrate de mantener los archivos del modelo (.h5, .pkl, y .json) en sus carpetas correspondientes (models/ y data_subsets/) tal como vienen en el repositorio. Esto abrira una dirección para el navegador para probar la predicción del precio de un vuelo a través de la interfaz web.
 
 
 Tecnología usada:
